@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>'Tis the Season!</title>
+</head>
+<!-- Execute the demo as soon as page loading has been completed -->
+<body onload="onLoadHandler()">
+
+	<!-- Common constants used within various routines -->
+	<script type="text/javascript" src="InternalConstants.js"></script>
+	
+	<!-- JavaScript utility routines -->	
+	<script type="text/javascript" src="Utility.js"></script>
+	
+	<!-- Defines basic [screen] coordinate/geometric primitives -->
+	<script type="text/javascript" src="Primitives.js"></script>
+	
+	<!-- Defines a plane in which snowflakes with a common Z-order will be displayed -->
+	<script type="text/javascript" src="SnowFlakePlane.js"></script>
+	
+	<!-- Main winter scene animation -->
+	<script type="text/javascript" src="SnowScene.js"></script>
+	
+	<!-- Implements a snowflake that is rendered as a "blob" -->
+	<script type="text/javascript" src="BlobSnowFlake.js"></script>
+	
+	<!-- Implements a snowflake that is rendered in the typical star fashion -->
+	<script type="text/javascript" src="StarSnowFlake.js"></script>
+	
+	<!-- Object responsible for scene execution and timing -->
+	<script type="text/javascript" src="SceneExecution.js"></script>
+	
+	<!-- Main javascript file that drives the demo execution -->
+	<script type="text/javascript" src="Katie-Ayo_HappyHolidays2013Main.js"></script>
+	
+	<!-- Background music -->
+	<audio autoplay="autoplay" loop>
+		<source src="audio/Ayo_O-SunnySleighRide.ogg" type="audio/ogg">
+		<source src="audio/Ayo_O-SunnySleighRide.mp3" type="audio/mpeg">
+	</audio>
+	
+	<!-- Strings -->
+	<input type="hidden" id="string_happyholidaystext" value="Happy holidays from Katie and Ayo Oshinnaiye"/>
+
+</body>
